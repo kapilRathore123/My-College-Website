@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700&family=Sofia&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+          /*--------- header ---------*/
+
+#header{
+    width: 100%;
+    height:17vh;
+    color:#272727;
+    background-color: rgb(0, 0, 60);
+    box-shadow: 2px #000;
+    display: flex;
+    align-items: center; 
+}
+#tumhe{
+  width: 25%;
+  height:17vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo{
+    width:80%;
+    height: 25vh;
+    margin-right: 3rem;
+}
+#che{
+    width: 50%;
+    height: 17vh;
+    background-color:transparent;
+    color: #FFFFFF;
+    margin-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content:center;
+} 
+
+.list{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.me{
+    color: #FFFFFF;
+    list-style-type: none;
+    transition-duration: .1s;
+    margin: .40rem;
+    text-decoration:none ;
+    &:hover{
+      border-bottom: 1px solid red;
+    }
+}
+#table{
+    text-decoration:none ;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    transition-duration: 3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:5vh;
+    width: 25%;
+    &:hover{
+      transition: .45s;
+      background-color: rgb(122, 3, 158); 
+  } 
+}
+.me1{
+    color: red;
+    text-decoration: none;
+    &:hover{
+      border-bottom: 1px solid #fefefe;
+    }
+} 
+.screendiv{
+    width: 100%;
+    height:50vh;
+}
+.videofix{
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.animateddiv{
+  width: 100%;
+  height:18vh;
+  display: flex;
+  justify-content: center;
+}
+.animateddiv h1{
+  color: #fefefe;
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-family: "Roboto",sans-serif;
+}
+ 
+.animateddiv span{
+  color:red;
+  font-size: 2.5rem;
+  font-family: "Roboto",sans-serif;
+}
+
+.screenbtn{
+  width: 100%;
+  height:15vh;
+  background-color:#FFFFFF;
+  color: #fefefe;
+  text-align: center;
+}
+#bn{
+  font-size:2.30rem;
+  color:#FFFFFF;
+}
+.admissionpage{
+    width:100%;
+    height:100vh;
+    background-color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admissionbox{
+    width:80%;
+    height:80vh;
+    background-color:transparent;
+}
+.admissionhead{
+    width:100%;
+    height: 13vh;
+    background-color:transparent;
+}
+.admissionhead h1{
+    text-align: center;
+    font-size:2rem;
+    color: #fc3e3e;
+    font-weight: 500;
+    font-family: "Roboto",sans-serif;
+}
+.admissionhead p{
+    text-align: center;
+    font-size:1.50rem;
+    color:rgb(0, 0, 50);
+    font-weight: 500;
+    font-family: "Raleway",sans-serif;
+}
+.admprocess{
+    word-spacing: 4px;
+    line-height:1.80rem;
+    font-size:1.20rem;
+}
+
+.letterdiv{
+	width:100%;
+	height: 20vh;
+	display: flex;
+  background-color:#000;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size:2.70rem;
+}
+span{
+	margin: 0 8px;
+	line-height: .7;
+	animation: span 3s ease-in infinite alternate;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.main span{
+  font-size:2.20rem;
+  color: #FFFFFF;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.main .light{
+  color: red;
+}
+.letter{
+	display: inline-flex;
+	height:4vh;
+	width:5%;
+	border: 3px solid red;
+	border-radius:1rem;
+	box-shadow:
+		0 0 2px rgba(0, 0, 0, .75),
+		inset 0 0 2px rgba(0, 0, 0, .45);
+	animation: letter 3s ease-in-out infinite alternate;
+}
+@keyframes span {
+	0%,30%{ margin: 0 1rem; }
+	70%,100%{ margin: 0 .30rem; }
+}
+@keyframes letter {
+	0%,30%{ width: 1.50rem; }
+	70%,100%{ width: 30vw; }
+}
+
+  .admissionform{
+    width: 100%;
+    height: 110vh;
+    color: rgb(0, 0, 70);
+    background-color:#fefefe;
+    font-family: "Roboto"sans-serif;
+    }
+    
+    h1 {
+    text-align: center;
+    font-size:1.80rem;
+    }
+    
+    form {
+    width:30%;
+    margin: 0 auto;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: .60rem;
+    }
+    
+    input {
+    width: 100%;
+    padding:0.60rem;
+    margin-bottom:0.60rem;
+    }
+    
+    input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.60rem 1.20rem;
+    cursor: pointer;
+    }
+
+.admfilepage{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admfilebox{
+    width: 80%;
+    height:90vh;
+    background-color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.admfilebox1{
+    width:40%;
+    height:80vh;
+    background-color:transparent; 
+}
+.admfiletext{
+  margin:4%;
+  font-family: "Roboto"sans-serif;
+  font-size:2rem;
+  color:rgb(0, 0, 70);
+}
+.admfiletext span{
+  color: red;
+}
+.admfilebox2{
+    width:32%;
+    height:75vh;
+    background-color:#09f744;
+    display: flex;
+    align-items: center;
+}
+.admboximg1{
+    width:90%;
+    height:75vh;
+    filter: drop-shadow(10px 7px 10px green);
+}
+.admfilebox1 button{
+  padding:.80rem;
+  background-color: rgb(0, 0, 70);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  &:hover{
+    background-color: rgb(10, 10, 117);
+  }
+}
+.footer {
+  background-color:rgb(0, 0, 66);
+  color: #fefefe;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.footheading{
+  background-color:rgb(0, 0, 66);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerlogo{
+  width: 16%;
+  height: 30vh;
+}
+
+.footer .heading {
+  width: 90%;
+  color: #fefefe;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer .content {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.5rem;
+}
+.footer .content p {
+  margin-bottom: 1.3rem;
+}
+.footer .content a {
+  text-decoration: none;
+  color: #fefefe;
+  &:hover {
+    color:red;
+  }
+}
+.footer .content h4 {
+  margin-bottom: 1.3rem;
+  font-size: 1.40rem;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+footer hr {
+  margin: 2rem 0;
+}

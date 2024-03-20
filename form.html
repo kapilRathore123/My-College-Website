@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="form.css">
+  <link rel="icon" type="imagr/icon" href="img container/LN.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Registration From</h2>
+    <form action="">
+      <fieldset>
+
+        <div class="input-field">
+          <label>Name</label>
+          <i class="fa fa-user icon"></i>
+          <input type="text" class="inputs" name="usrname">
+        </div>
+
+        <div class="input-field">
+          <label>Father's name</label>
+          <i class="fa-solid fa-people-roof icon"></i>
+          <input type="text" class="inputs" name="usrname">
+        </div>
+
+        <div class="input-field">
+          <label>Mother's name</label>
+          <i class="fa-solid fa-people-roof icon"></i>
+          <input type="text" class="inputs" name="usrname">
+        </div>
+
+        <div class="input-field">
+          <label>Email</label>
+          <i class="fa fa-envelope icon"></i>
+          <input type="email" class="inputs">
+        </div>
+
+        <div class="input-field">
+          <label class="gender">Gender</label>
+          <input type="radio" name="gender" value="male">Male
+          <input type="radio" name="gender" value="female"> Female
+        </div>
+
+        <div class="input-field">
+          <label>Password</label>
+          <i class="fa fa-eye-slash icon"></i>
+          <input type="password" class="inputs">
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+
+        <div class="input-field">
+          <label class="message">Address</label>
+          <i class="fa-solid fa-address-book icon textarea-icon"></i>
+          <textarea class="textarea"></textarea>
+        </div>
+
+        <div class="input-field">
+          <label class="city">City</label>
+          <i class="fa fa-list icon"></i>
+          <select name="city" id="" class="inputs">
+            <option value="0">Select City</option>
+            <option value="1">Bhopal</option>
+            <option value="2">Indore</option>
+            <option value="3">Ujjain</option>
+            <option value="4">Sehore</option>
+            <option value="5">Ashta</option>
+          </select>
+        </div>
+
+        <div class="input-field">
+          <label>Zip code</label>
+          <i class="fa fa-home icon"></i>
+          <input type="number" class="inputs">
+        </div>
+
+        <div class="input-field">
+          <label>Phone No</label>
+          <i class="fa fa-phone icon"></i>
+          <input type="number" class="inputs">
+        </div>
+
+        <div class="input-field">
+          <label class="courses">Courses</label>
+          <input class="" type="checkbox" value="app-development">App Development
+          <input class="" type="checkbox" value="marketing">Marketing
+          <input class="" type="checkbox" value="editing">Editing
+        </div>
+
+        <div class="input-field">
+          <label>Upload CV</label>
+          <i class="fa fa-upload icon"></i>
+          <input type="file" class="inputs">
+        </div>
+        
+      </fieldset>
+
+      <div class="button">
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

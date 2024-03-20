@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700&family=Sofia&display=swap');
+body{
+  font-family: "Poppins"sans-serif;
+  width: 100%;
+}
+.container {
+  padding: 2.50rem;
+  width: 45%;
+  margin: 20px auto;
+  background-color: #f1f1f1;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+fieldset {
+  border: 1px solid #d4d4d4;
+  padding:1.20rem 0.60rem;
+  margin-bottom: 1.20rem;
+  border-radius: 0.50rem;
+}
+
+.input-field {
+  display: flex;
+  margin-bottom: 0.80rem;
+}
+
+label {
+  margin-right: 25px;
+  margin-top: 5px;
+  width: 30%;
+  text-align: right;
+  font-weight: bold;
+}
+
+.icon {
+  background: #fcfcfa;
+  color: black;
+  min-width: 5%;
+  border: 2px solid #e2e2e2;
+  border-right: none;
+  text-align: center;
+  padding: 0.40rem;
+}
+
+.inputs {
+  padding: 3px 0.60rem;
+  border: 2px solid #e2e2e2;
+  width: 70%;
+}
+
+input [type="radio"] {
+  margin-right: 0.50rem;
+}
+
+.textarea {
+  padding: 0.50rem;
+  border: 2px solid #e2e2e2;
+}
+
+.textarea-icon {
+  padding-top:1rem;
+}
+
+.button {
+  text-align: center;
+}
+
+.submit {
+  color: white;
+  background: rgb(0,0,60);
+  padding: 0.60rem 1.40rem;
+  margin-right: 0.60rem;
+  border: none;
+  border-radius:0.20rem;
+  box-shadow: 0 0 5px #c9c9c9;
+}
+
+.submit:hover {
+  background:rgb(16, 16, 95);
+}
+
+.reset {
+  color: white;
+  background:red;
+  padding: 0.60rem 1.40rem;
+  border: none;
+  border-radius: .20rem;
+  box-shadow: 0 0 5px #c9c9c9;
+}
+
+.reset:hover {
+  background: #a32727;
+}
+
+.city {
+  margin-left: -.60rem;
+}
+
+.gender {
+  margin-left: -2rem;
+}
+
+.courses {
+  margin-left: -1.80rem;
+}
+
+input[type="radio"] {
+  margin-right: 0.60rem
+}
+
+.message {
+  margin-left: -2rem;
+}

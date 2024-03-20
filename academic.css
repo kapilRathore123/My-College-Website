@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700&family=Sofia&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+          /*--------- header ---------*/
+
+#header{
+    width: 100%;
+    height:17vh;
+    color:#272727;
+    background-color: rgb(0, 0, 60);
+    box-shadow: 2px #000;
+    display: flex;
+    align-items: center; 
+}
+#tumhe{
+  width: 25%;
+  height:17vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo{
+    width:80%;
+    height: 25vh;
+    margin-right: 3rem;
+}
+#che{
+    width: 50%;
+    height: 17vh;
+    background-color:transparent;
+    color: #FFFFFF;
+    margin-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content:center;
+} 
+
+.list{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.me{
+    color: #FFFFFF;
+    list-style-type: none;
+    transition-duration: .1s;
+    margin: .40rem;
+    text-decoration:none ;
+    &:hover{
+      border-bottom: 1px solid red;
+    }
+}
+#table{
+    text-decoration:none ;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    transition-duration: 3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:5vh;
+    width: 25%;
+    &:hover{
+      transition: .45s;
+      background-color: rgb(122, 3, 158); 
+  } 
+}
+.me1{
+    color: red;
+    text-decoration: none;
+    &:hover{
+      border-bottom: 1px solid #fefefe;
+    }
+} 
+ #contactpage{
+    width: 100%;
+    height:80vh;
+    background-image: linear-gradient(180deg, rgb(0,0,60),rgb(146, 49, 146));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+ .contacttext{
+    width:60%;
+    height:90vh;
+    background-color:transparent;
+    text-align: center;
+ }
+ .contactimg{
+    width:60%;
+    height:80vh;
+    background-color:transparent;
+    display: flex;
+ }
+  .imgclass{
+    width:100%;
+    height:80vh;
+}
+ .contacttext h1{
+    font-size:4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color:#4AA89A;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+ }
+ .contacttext p{
+    color:#F2523D;
+    font-weight:500;
+    font-size:1.50rem;
+    line-height:2.20rem;
+    word-spacing: 6px;
+ }
+ .button {
+  background-color:aquamarine;
+  border: none;
+  color: white;
+  padding: .40rem .60rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 3rem; */
+  cursor: pointer;
+  }
+  #btn{
+    width: 100%;
+    height:10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  #btn .button1 {
+    font-size: 1.20rem;
+    font-family: "Roboto",sans-serif;
+    border: none;
+  }
+  #btn .button2 {
+    font-size: 1.20rem;
+    font-family: "Roboto",sans-serif;
+    border: none;
+  }
+  .button1 {
+    background-color:#4AA89A; 
+    color: #FFFFFF; 
+    &:hover {
+      background-color:rgb(0, 0, 70);
+      color: white;
+    }
+  }
+  .button2 {
+    background-color:#F2523D; 
+    color:white; 
+    &:hover {
+      background-color:rgb(0, 0, 70);
+      color: white; 
+    } 
+  }
+
+.maincontainer{
+  display: flex;
+  flex-direction: row;
+  background:#111;
+  width: 100%;
+  height: 120vh;
+}
+.listhead{
+  width: 100%;
+  height:10vh;
+  background-color:#FFFFFF;
+}
+.listbetween{
+  font-size:2rem;
+  text-align: center;
+  font-family: "Roboto",sans-serif;
+}
+.list {
+  position: relative;
+}
+.listhead h2 {
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top:.60rem;
+  border-bottom:  3px solid rgb(0, 0, 70);
+}
+.list ul li {
+  position: relative;
+  left: 0;
+  color: #fce4ec;
+  list-style: none;
+  margin: 4px 0;
+  border-left: 4px solid #f50057;
+  transition: 0.5s;
+  cursor: pointer;
+  &:hover {
+    left: 10px;
+  }
+}
+.list ul li span {
+  position: relative;
+  margin-left: 2rem;
+  padding: 8px;
+  padding-left:2rem;
+  display: inline-block;
+  z-index: 1;
+  transition: 0.5s;
+}
+.list ul li:hover span {
+  color: #111;
+}
+.list ul li:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #f50057;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+.list ul li:hover:before {
+  transform: scaleX(1);
+}
+.lnctpage{
+  width: 100%;
+  height:75vh;
+  background-color:rgb(0, 0, 70);
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+.lnctbox1{
+  width:20%;
+  height: 60vh;
+  background-color:transparent;
+}
+.lnctbox1img{
+  width:100%;
+  height:40vh;
+}
+.lnctbox2{
+  width:60%;
+  height:60vh;
+  background-color:transparent;
+}
+.lnctbox2 h5{
+  color: #fce4ec;
+  font-family: "Sofia", cursive;
+}
+.lnctpage .lnctboxtext1{
+  font-size:1.60rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.lnctpage .lnctboxtext2{
+  font-size:1.20rem;
+  font-weight: 400;
+}
+.fa-brands {
+  text-align: center;
+  font-size:1.30rem;
+  color: white;
+  border-radius: 50%;
+  background-color:#ddd;
+  color: #f50057;
+  padding: .50rem;
+}
+.copyride{
+  font-size:1.30rem;
+  color: #fce4ec;
+  text-align: center;
+}
+.footer {
+  width:100%;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  color: #fefefe;
+ 
+}
+.footer .heading {
+  color: #fefefe;
+  /* max-width: 1010px; */
+  width: 90%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+.footer .content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer .content p {
+  margin-bottom: 1.3rem;
+}
+
+.footer .content a {
+  text-decoration: none;
+  color: #fefefe;
+  &:hover {
+    color:red;
+  }
+}
+.footer .content h4 {
+  margin-bottom: 1.3rem;
+  font-size:1.50rem;
+}
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+footer hr {
+  margin: 2rem 0;
+}
